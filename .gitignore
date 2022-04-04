@@ -40,5 +40,6 @@ $RECYCLE.BIN/
 .env
 
 server.crt
+server.csr
 server.key
 info.md
