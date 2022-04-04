@@ -1,17 +1,4 @@
-# Steps to to setup JWT authorization to create and push code to Salesforce scratch orgs
-    This project following the Wade Wegner's [blog post](https://www.wadewegner.com/2018/01/authenticate-to-your-scratch-orgs-using-the-oauth-2.0-jwt-bearer-flow) 
+# JWT authorization to create and push code to Salesforce scratch orgs
+A codied version of [blog post](https://www.wadewegner.com/2018/01/authenticate-to-your-scratch-orgs-using-the-oauth-2.0-jwt-bearer-flow/)
 
-## 
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
