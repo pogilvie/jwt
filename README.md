@@ -1,8 +1,7 @@
-# Salesforce DX Project: Next Steps
+# Steps to to setup JWT authorization to create and push code to Salesforce scratch orgs
+    This project following the Wade Wegner's [blog post](https://www.wadewegner.com/2018/01/authenticate-to-your-scratch-orgs-using-the-oauth-2.0-jwt-bearer-flow) 
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
-
-## How Do You Plan to Deploy Your Changes?
+## 
 
 Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
