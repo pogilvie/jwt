@@ -6,7 +6,7 @@ grant:
 		--clientid '$(clientId)' \
 		--username $(grantUsername) \
 		--jwtkeyfile ./server.key \
-		--setdefaultdevhubusername -a $(dev)
+		--setalias $(dev)
 
 # setup up grant to scatch org
 grant-scratch:
@@ -18,7 +18,7 @@ grant-scratch:
 
 # create a scratch org
 scratch:
-	sfdx force:org:create -a Demo -s -f config/scratch.json
+	sfdx force:org:create -a scratch -f config/scratch.json -v $(grantUsername)
 
 # create connected app
 connected-app:

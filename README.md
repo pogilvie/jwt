@@ -56,7 +56,7 @@ Successfully authorized code@ogilvie.us.com with org ID 00D61000000JfR9EAK
 
 ## create a scarch org using the JWT token
 
-1. `make scatch`
+`make scatch`
 
 Note the user name from the output and save it in `config.mk:scratchUsername`
 
@@ -67,19 +67,3 @@ sfdx force:org:create -a Demo -s -f config/scratch.json
 (Use `node --trace-deprecation ...` to show where the warning was created)
 Successfully created scratch org: 00D0t000000NtlrEAC, username: test-kz4bxmxfdley@example.com
 ```
-
-## grant test user access to the scatch org
-
-1. `make grant-scratch`
-
-```
-sfdx force:auth:jwt:grant \
-                --clientid 3MVG9KI2HHAq33RyHfKPr46ZZYHmziSVDqXLpuhI4Cib54XtjSpgM6ItuZCy1vHV976CiT5OGZNhxgky9T69r \
-                --username test-kz4bxmxfdley@example.com \
-                --jwtkeyfile ./server.key \
-                --instanceurl https://test.salesforce.com
-Successfully authorized test-kz4bxmxfdley@example.com with org ID 00D0t000000NtlrEAC
-```
-
-The test user should now be able to run commands on the scatch org.
-
