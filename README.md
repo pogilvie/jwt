@@ -3,7 +3,8 @@ A codified version of Wade Wegner's [blog post](https://www.wadewegner.com/2018/
 
 ## Prerequisites
 1. Install Make
-2. Salesforce cli authentication to a devhub
+2. Salesforce cli authentication to a devhub (you might want to create an
+   authenticate to a new playground if you're just tryin this out)
 3. Install sfdx-waw-plugin `sfdx plugins:install sfdx-waw-plugin`
 4. update the `dev` variable in `config.mk` to the value of devhub user or alias
 5. udpate the `connectedAppName` of the connected app you wish to create
