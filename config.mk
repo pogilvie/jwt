@@ -4,4 +4,4 @@ dev = demo
 connectedAppName = Demo
 grantUsername = TBD
 clientId = TBD
-scratchUsername = TBD
+scratchUsername = TDB

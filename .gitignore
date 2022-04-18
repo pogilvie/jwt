@@ -43,4 +43,3 @@ server.crt
 server.csr
 server.key
 info.md
-config.mk
